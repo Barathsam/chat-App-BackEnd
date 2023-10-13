@@ -30,7 +30,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https://chat-app-website.herokuapp.com",
+    origin: "https://main--chatapp-website.netlify.app",
     credentials: true,
   },
 });
